@@ -135,7 +135,7 @@ for (var i = 0; i < questionsList.length; i++) {
     console.log('\n');
     console.log(chalk.cyanBright('Question', i + 1));
     part1(questionsList[i].question, questionsList[i].answer);
-    console.log('-------------*---------------*---------------*--------------*');
+    console.log('*-------------*---------------*---------------*--------------*');
 }
 
 //For loop to traverse through the MCQ Type Questions and pass on to function part2()
@@ -144,7 +144,7 @@ for (var i = 0; i < mcqList.length; i++) {
     console.log('\n');
     console.log(chalk.cyanBright('Question', j++));
     part2(mcqList[i].array, mcqList[i].question, mcqList[i].answer);
-    console.log('-------------*---------------*---------------*--------------*');
+    console.log('*-------------*---------------*---------------*--------------*');
 }
 
 //End. Thanks For Reading.
